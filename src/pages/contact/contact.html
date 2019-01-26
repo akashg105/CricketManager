@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Matches
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+
+ <button scrollable="false" class="matchbutton" ion-button (click)="goToSchedule()" block>Schedule A Match</button>
+     
+<ion-card>
+  <ion-card-header>
+    Upcoming Matches
+  </ion-card-header>
+
+  <ion-list>
+  <ion-item *ngFor="let item of fetchMatches()">
+    <h2>{{item.date}}</h2>
+    <h5>{{item.opponent}}</h5>
+    <h5>At {{item.venue}}</h5>
+  </ion-item>
+  <div *ngIf="fetchMatches()==0">
+      <br><br>
+      <h1>No Match has been scheduled yet</h1>
+    </div>
+  </ion-list>
+  </ion-card>
+
+
+</ion-content>
+      
+     

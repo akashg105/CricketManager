@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Add Player</ion-title>
+    
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<form [formGroup]="addForm" (ngSubmit)="add()" >
+	<ion-list>
+		<ion-list>
+			<ion-item>
+				<ion-label floating>Name</ion-label>
+				<ion-input type="text" formControlName="name" [(ngModel)]="name"></ion-input>
+			</ion-item>
+			 <!-- <ion-item *ngIf="!addForm.controls.name.valid">
+                <p>Please enter a valid name.</p>
+            </ion-item> -->
+			<ion-item>
+				<ion-label floating>Kit Number</ion-label>
+				<ion-input type="number" formControlName="number" [(ngModel)]="number"></ion-input>
+			</ion-item>
+			<!-- <ion-item *ngIf="!addForm.controls.number.valid">
+                <p>Please enter a valid name.</p>
+            </ion-item> -->
+		</ion-list>
+		<!-- <ion-item no-lines></ion-item> -->
+		<ion-list>
+		<ion-list-header color="light">Skills</ion-list-header>	
+			<ion-item>
+				<ion-range min="0" max="100" value="50" pin="true" formControlName="bat" [(ngModel)]="bat">
+					<ion-label range-left>Batting</ion-label>
+				</ion-range>
+			</ion-item>
+			<ion-item>
+				<ion-range min="0" max="100" value="50" pin="true" formControlName="bowl" [(ngModel)]="bowl">
+					<ion-label range-left>Bowling</ion-label>
+				</ion-range>
+			</ion-item>
+			<ion-item>
+				<ion-range min="0" max="100" value="50" pin="true" formControlName="field" [(ngModel)]="field" >
+					<ion-label range-left>Fielding</ion-label>
+				</ion-range>
+			</ion-item>
+		</ion-list>
+		<ion-list radio-group formControlName="hand" >
+			<ion-list-header color="light">Handed</ion-list-header>
+			<ion-item>
+				<ion-label>Left</ion-label>
+				<ion-radio checked="true" value="left"></ion-radio>
+			</ion-item>
+			<ion-item>
+				<ion-label>Right</ion-label>
+				<ion-radio value="right"></ion-radio>
+			</ion-item>
+		</ion-list>
+		<button ion-button type="submit" [disabled]="!addForm.valid" full>Add</button>
+	</ion-list>
+ </form>
+</ion-content>

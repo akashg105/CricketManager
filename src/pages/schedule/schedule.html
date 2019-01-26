@@ -1,0 +1,40 @@
+<!--
+  Generated template for the Edit page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Schedule</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+	<ion-list>
+  <ion-item>
+      <ion-label>Match Date</ion-label>
+      <ion-datetime displayFormat="DD MMM YYYY" [(ngModel)]="myDate" pickerFormat="DD MMM YYYY" min={{myDate}} max="2020-12-31"></ion-datetime>
+    </ion-item>
+  <ion-item>
+    <ion-label fixed>Opponent</ion-label>
+    <ion-select [(ngModel)]="myOpponent">
+      <ion-option >MysoreDC</ion-option>
+      <ion-option value="PuneDC">PuneDC</ion-option>
+      <ion-option value="BangaloreDC">BangaloreDC</ion-option>
+    </ion-select>
+  </ion-item>
+  <ion-item>
+    <ion-label fixed>Venue</ion-label>
+    <ion-select [(ngModel)]="myVenue">
+      <ion-option value="Feroz Shah Kotla">Feroz Shah Kotla</ion-option>
+      <ion-option value="Chinnaswamy Stadium">Chinnaswamy Stadium</ion-option>
+      <ion-option value="Wankhede Stadium">Wankhede Stadium</ion-option>
+    </ion-select>
+  </ion-item>
+</ion-list>
+<button ion-button (click)="schedule()" block>Schedule</button>
+</ion-content>

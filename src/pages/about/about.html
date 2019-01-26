@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Edit Squad
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+	<ion-list>
+  <ion-list-header>Players</ion-list-header>
+    <button ion-item *ngFor="let item of fetchNames()" (press)="itemActionSheet(item)">
+
+      {{ item.name }}
+    </button>
+    <div *ngIf="fetchNames()==0">
+      <br><br>
+      <h1>No Players Added</h1>
+    </div>
+  </ion-list>
+</ion-content>
