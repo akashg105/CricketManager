@@ -6,7 +6,7 @@ Utilizing numerous basic and advanced features of Ionic.
 So please go ahead and play around!!
  
  
-## Download/ Intall
+## Download/ Install
 * [Node.js](https://nodejs.org/en/)
 * `npm install -g ionic cordova`
 
@@ -21,7 +21,7 @@ So please go ahead and play around!!
 > `ionic serve`
 
 
-## UI
+## UI (Left - Android, Right - iOS)
 
 ### The root page for the app
 
