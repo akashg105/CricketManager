@@ -35,7 +35,7 @@ So please go ahead and play around!!
 
 <br>
 
-### UI on the left after addition of a new player and UI on the right shows current squad
+### UI on the left: addition of a new player. UI on the right: current squad
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/21079986/53137776-e650b380-3538-11e9-9450-dac3bfb16e8c.png?raw=true" alt="Sublime's custom image"/>
@@ -43,7 +43,7 @@ So please go ahead and play around!!
 <br>
 
 
-### UI on the left Changing Skills Page and UI on the right shows an ActionSheet with various options
+### UI on the left: Changing Skills Page. UI on the right: ActionSheet with various options
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/21079986/53137825-10a27100-3539-11e9-87a4-fe89f9c2eff9.png?raw=true" alt="Sublime's custom image"/>
@@ -60,7 +60,7 @@ So please go ahead and play around!!
 
 <br>
 
-### UI on the left shows Radio Alert and UI on the right shows Checkbox Alert
+### UI on the left: Radio Alert. UI on the right: Checkbox Alert
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/21079986/53137908-6840dc80-3539-11e9-9ac6-8695224b7a65.png?raw=true" alt="Sublime's custom image"/>
@@ -68,7 +68,7 @@ So please go ahead and play around!!
 
 <br>
 
-### UI on the left shows Alert Notifications and UI on the right shows Date Picker
+### UI on the left: Alert Notifications. UI on the right: Date Picker
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/21079986/53138006-bc4bc100-3539-11e9-9c56-26575b6e45f0.png?raw=true" alt="Sublime's custom image"/>
