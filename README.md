@@ -47,7 +47,7 @@ So please go ahead and play around!!
 
 <br>
 
-### Alert Confirmations for differenct scenarios
+### Alert Confirmations for different scenarios
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/21079986/53137863-362f7a80-3539-11e9-81d5-c18a1f4a079f.png?raw=true" alt="Sublime's custom image"/>
