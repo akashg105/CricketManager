@@ -12,13 +12,13 @@ So please go ahead and play around!!
 
 
 ## Starting an App
-> ionic start myApp tabs
+> `ionic start myApp tabs`
 
 
 ## Run the App
-> ~ cd myApp
+> `cd myApp`
 
-> ~ ionic serve
+> `ionic serve`
 
 
 ## UI
