@@ -22,7 +22,7 @@ So please go ahead and play around!!
 
 ## UI
 
-#### The root page for the app
+#### > The root page for the app
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/21079986/53136450-edc18e00-3533-11e9-93fe-dc9e52dd52ae.png?raw=true" alt="Sublime's custom image"/>
@@ -30,5 +30,5 @@ So please go ahead and play around!!
 
 
 
-#### UI on the left after addition of a new player and UI on the right shows current squad
+#### > UI on the left after addition of a new player and UI on the right shows current squad
 
