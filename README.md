@@ -8,7 +8,7 @@ So please go ahead and play around!!
  
 ## Download/ Intall
 * [Node.js](https://nodejs.org/en/)
-* > npm install -g ionic cordova
+* npm install -g ionic cordova
 
 
 ## Starting an App
@@ -16,9 +16,9 @@ So please go ahead and play around!!
 
 
 ## Run the App
-> cd myApp
+> ~ cd myApp
 
-> ionic serve
+> ~ ionic serve
 
 
 ## UI
