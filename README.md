@@ -1,7 +1,9 @@
 # CricketManager
-> An interactive cross platform application built using [Ionic framework](https://ionicframework.com/) with amazing UI.
+> An interactive cross platform application built using [Ionic framework](https://ionicframework.com/) with amazing UI
+
 > It is a Proof of Concept (POC) project
-Allows the user to
+
+> Allows the user to
 * Add, delete, and edit player
 * Manage team information
 * Schedule and view matches
