@@ -17,6 +17,7 @@ So please go ahead and play around!!
 
 ## Run the App
 > cd myApp
+
 > ionic serve
 
 
